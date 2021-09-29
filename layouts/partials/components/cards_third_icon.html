@@ -10,7 +10,7 @@
 
                 <div class="flex flex-col items-center">
                     
-                    <svg class="fill-primary mb-10 h-12">
+                    <svg class="fill-primary mb-10 h-20">
                         <use xlink:href="../icons/regular.svg{{ .icon }}"></use>
                       </svg>
 
@@ -18,8 +18,8 @@
                     <h3 class="font-bold text-center text-3xl md:text-3xl text-black mb-6">
                         {{ .title }}
                     </h3>
-                    <p class="text-center mb-6 md:mb-8 md:text-xl">
-                        {{ .desc }}
+                    <p class="text-center mb-6 md:mb-8 text-base">
+                        {{ .description }}
                     </p>
                     {{ if .cta_select }}
                     <a href="{{ .Site.BaseURL}}{{ .cta_link }}"

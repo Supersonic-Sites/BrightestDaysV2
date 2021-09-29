@@ -1,9 +1,66 @@
-baseURL = "/"
-title = "Supersonic"
-description = "Lorem Ipsum"
+title = "Brightest Days Painting Co."
+description = "Indoor and Outdoor Painting Services in Tofino, Ucluelet & Port Alberni. Get a FREE Consultation Today."
 languageCode = "en-ca"
+baseURL = "/"
 DefaultContentLanguage = "en"
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
+
+[params]
+gtm = "GTM-ML2XLHP"
+servicename = "Painting Service"
+googlemap = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2620.7901177865374!2d-125.54422898432286!3d48.93843927929546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548973bb74a97497%3A0xa1a90fb7c32ca3a3!2s1356%20Pine%20Rd%2C%20Ucluelet%2C%20BC%20V0R%203A0!5e0!3m2!1sen!2sca!4v1611952308750!5m2!1sen!2sca"
+sitename = "Brightest Days Painting Co."
+usebasin = "https://usebasin.com/f/7bbcae118128"
+videoOn = false
+description = "Indoor and Outdoor Painting Services in Tofino, Ucluelet & Port Alberni. Get a FREE Consultation Today."
+
+[params.schema]
+ogimage = "/img/supersonicsites-logo-final-750x450-1.png"
+logofooter = "https://imagedelivery.net/55TzV2Sm0ZC5Gj13gsciyw/8fb13c16-5261-4c8b-5e23-1884d16f3b00/public"
+city = "Tofino"
+logo = "https://imagedelivery.net/55TzV2Sm0ZC5Gj13gsciyw/8fb13c16-5261-4c8b-5e23-1884d16f3b00/7by5logo"
+reservation = true
+phone = "+1-250-720-7610 "
+priceRange = "$$$"
+region = "BC"
+country = "Canada"
+postalcode = "V5V 3N5"
+type = "HomeAndConstructionBusiness"
+openinghour = "Mo-Fr 9:00-17:00"
+email = "info@brightestdays.ca"
+address1 = "#"
+address2 = "#"
+address_toggle = true
+
+[params.social]
+facebook = "https://www.facebook.com/brightestdaysco"
+twitter = "#"
+pinterest = "#"
+instagram = "#"
+linkedin = "#"
+
+[[params.hours]]
+hours = "Mo-Fr 9:00-17:00"
+
+[[params.hours]]
+hours = "Sat: CLOSED"
+
+[[params.hours]]
+hours = "Sun: CLOSED"
+
+[module]
+
+[[module.mounts]]
+source = "assets"
+target = "assets"
+
+[[module.mounts]]
+source = "./node_modules/alpinejs/dist/alpine.js"
+target = "assets/js/alpine.js"
+
+[[module.mounts]]
+source = "./node_modules/lazysizes/lazysizes.js"
+target = "assets/js/lazysizes.js"
 
 [sitemap]
 changefreq = "monthly"
@@ -41,60 +98,6 @@ url = "contact/"
 weight = "5"
 
 [[menu.main]]
-name = "Appointment"
+name = "Get a Quote"
 url = "/"
 weight = "6"
-
-[params]
-gtm = "#"
-servicename = "WebDesign"
-googlemap = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10486.075597019064!2d-125.5296457!3d48.9245577!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x231041e6ea05c1b5!2sSteam%20Train%20Creative!5e0!3m2!1sen!2sca!4v1626282835512!5m2!1sen!2sca"
-sitename = "Supersonic Template"
-usebasin = "#"
-videoOn = false
-description = "Lorem ipsum"
-
-[params.schema]
-ogimage = "/img/supersonicsites-logo-final-750x450-1.png"
-logofooter = "/img/supersonicsites-logo-final-750x450-1.png"
-city = "Vancouver"
-logo = "/img/supersonicsites-1.png"
-reservation = true
-phone = "+1-888-321-BOOM"
-priceRange = "$$$"
-region = "BC"
-country = "Canada"
-postalcode = "V5V 3N5"
-type = "WebDesign"
-openinghour = "Mo-Sa: 10-6"
-email = "hello@supersonicsites.com"
-address1 = "3622 Main Street"
-address2 = "#"
-address_toggle = true
-
-[params.social]
-facebook = "#"
-twitter = "#"
-pinterest = "#"
-instagram = "/"
-linkedin = "#"
-
-[[params.hours]]
-hours = "Mon to Sat: 10AM to 6PM"
-
-[[params.hours]]
-hours = "Sun: CLOSED"
-
-[module]
-
-    [[module.mounts]]
-        source = "assets"
-        target = "assets"
-
-    [[module.mounts]]
-        source = "./node_modules/alpinejs/dist/alpine.js"
-        target = "assets/js/alpine.js"
-
-    [[module.mounts]]
-        source = "./node_modules/lazysizes/lazysizes.js"
-        target = "assets/js/lazysizes.js"

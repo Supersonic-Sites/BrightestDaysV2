@@ -29,7 +29,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: [
-          '"Open Sans"',
+          '"Raleway"',
           'system-ui',
           '-apple-system',
           'BlinkMacSystemFont',

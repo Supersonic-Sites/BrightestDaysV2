@@ -1,7 +1,7 @@
 <footer class="bg-lightgreen" aria-labelledby="footerHeading">
   <h2 id="footerHeading" class="sr-only">Footer</h2>
   <div class="max-w-7xl mx-auto py-12 lg:py-16 px-4 xl:px-0">
-    <div class="xl:grid xl:grid-cols-4 xl:gap-8">
+    <div class="xl:grid xl:grid-cols-3 xl:gap-8">
       <div class="space-y-4 xl:col-span-1">
         <div class="flex flex-col items-center md:items-start">
         <img class=""
@@ -56,40 +56,23 @@
         </div>
 
       </div>
-      <div class="mt-12 grid grid-cols-1 gap-8 xl:mt-0 col-span-2">
+      <div class="mt-12 grid grid-cols-1 gap-8 xl:mt-0 col-span-1">
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
-          <div class="flex flex-col text-center sm:text-left">
-            <h3 class="text-xl  font-semibold text-black tracking-wider uppercase">
-              {{ i18n "navigate" }}
-            </h3>
-            <ul class="mt-4 space-y-3">
-              {{ range .Site.Menus.main -}}
-              <li class="">
-                <a href="{{ .URL | relLangURL }}"
-                  class="text-xl text-black hover:text-secondary transition duration-500 ">
-                  {{ .Name }}
-                </a>
-              </li>
-              {{ end }}
-            </ul>
-          </div>
+          
           <div class="flex flex-col items-center sm:items-start space-y-4">
             <h3 class="text-xl  font-semibold text-black tracking-wider uppercase">
               Contact
             </h3>
 
-            <div class="flex flex-row items-center mt-4 text-black text-xl">
+            <div class="flex flex-row items-center mt-4 text-black ">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 3h5m0 0v5m0-5l-6 6M5 3a2 2 0 00-2 2v1c0 8.284 6.716 15 15 15h1a2 2 0 002-2v-3.28a1 1 0 00-.684-.948l-4.493-1.498a1 1 0 00-1.21.502l-1.13 2.257a11.042 11.042 0 01-5.516-5.517l2.257-1.128a1 1 0 00.502-1.21L9.228 3.683A1 1 0 008.279 3H5z" />
               </svg>
-
-
-              
                 {{ .Site.Params.schema.phone }}
               
             </div>
 
-            <div class="flex flex-row items-center mt-1 text-black text-xl">
+            <div class="flex flex-row items-center mt-1 text-black">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
@@ -98,9 +81,12 @@
             </div>
 
             {{ if .Site.Params.schema.address_toggle }}
-            <address class="text-xl text-black mt-4 space-y-4 text-center md:text-left">
-
-              {{ .Site.Params.schema.address1 }},<br>
+            <address class="text-black mt-4 space-y-4 text-center md:text-left">
+              {{ if eq .Site.Params.schema.address1 "#" }}
+              <span></span>
+              {{ else }}
+              {{ .Site.Params.schema.address1 }}<br>
+              {{ end }}
               {{ if eq .Site.Params.schema.address2 "#" }}
               <span></span>
               {{ else }}
@@ -131,7 +117,7 @@
 
         {{ range .Site.Params.hours }}
         <li>
-          <p class="text-xl text-black text-center md:text-left">
+          <p class="text-black text-center md:text-left">
             {{ .hours }}
           </p>
         </li>
