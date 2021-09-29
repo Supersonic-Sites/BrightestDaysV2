@@ -22,7 +22,7 @@ components:
     bg_color: white
     align: center
     title: The Highest Standard Of Painting Service
-    title_size: medium
+    title_size: big
     desc_select: false
     desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec mauris
       sapien. Ut semper maximus pulvinar. Quisque lacinia, elit eget bibendum
@@ -121,7 +121,7 @@ components:
     id: none
     bg_color: white
     title: Testimonials
-    title_size: medium
+    title_size: big
     desc: "#"
   - type: testimonial_half
     bg_color: white
@@ -147,7 +147,7 @@ components:
     id: none
     bg_color: white
     title: Get A Quote
-    title_size: medium
+    title_size: big
     desc: >-
       We are here to help!
 
