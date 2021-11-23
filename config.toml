@@ -15,10 +15,10 @@ videoOn = false
 description = "Indoor and Outdoor Painting Services in Tofino, Ucluelet & Port Alberni. Get a FREE Consultation Today."
 
 [params.schema]
-ogimage = "/img/supersonicsites-logo-final-750x450-1.png"
-logofooter = "https://imagedelivery.net/55TzV2Sm0ZC5Gj13gsciyw/8fb13c16-5261-4c8b-5e23-1884d16f3b00/public"
+ogimage = "https://imagedelivery.net/55TzV2Sm0ZC5Gj13gsciyw/bdd3c52c-ca43-419e-1f4b-c10878a38800/public"
+logofooter = "https://imagedelivery.net/55TzV2Sm0ZC5Gj13gsciyw/c8ade48b-c51a-41e6-c03d-d660c6aa5600/7by5logo"
 city = "Tofino"
-logo = "https://imagedelivery.net/55TzV2Sm0ZC5Gj13gsciyw/8fb13c16-5261-4c8b-5e23-1884d16f3b00/7by5logo"
+logo = "https://imagedelivery.net/55TzV2Sm0ZC5Gj13gsciyw/c8ade48b-c51a-41e6-c03d-d660c6aa5600/7by5logo"
 reservation = true
 phone = "+1-250-720-7610 "
 priceRange = "$$$"
@@ -79,25 +79,25 @@ weight = "1"
 
 [[menu.main]]
 name = "About"
-url = "about/"
+url = "#about"
 weight = "2"
 
 [[menu.main]]
-name = "Gallery"
-url = "gallery/"
+name = "Pictures"
+url = "#photo"
 weight = "3"
 
 [[menu.main]]
-name = "Services"
-url = "services/"
+name = "Testimonials"
+url = "#testimonials"
 weight = "4"
 
 [[menu.main]]
 name = "Contact"
-url = "contact/"
+url = "#contact"
 weight = "5"
 
 [[menu.main]]
 name = "Get a Quote"
-url = "/"
+url = "#contact"
 weight = "6"

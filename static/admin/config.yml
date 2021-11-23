@@ -99,6 +99,7 @@ collections:
             name: "divider"
             widget: "object"
             fields:
+                - { label: "ID", name: "id", widget: "string" }
                 - { label: "Background Color", name: "bg_color", widget: "string", default: "white" }
 
           - label: "Large Divider"
