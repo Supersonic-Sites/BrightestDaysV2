@@ -9,10 +9,10 @@ components:
     cta_link: "#contact"
     img_alt: BrightestDays Logo
     cta: Get Your Quote Today
-    desc: We offer professional on time reliable service for both residential and
-      commercial properties.
+    desc: We offer professional on time reliable painting services for both
+      residential and commercial properties.
     cta2_link: contact/
-    title: BRIGHTEST DAYS PAINTING CO.
+    title: BRIGHTEST DAYS PAINTING
     type: hero
     pre_title: Lorem
   - type: divider
@@ -34,7 +34,8 @@ components:
     align: center
     id: none
     bg_color: white
-    title: Residential & Commercial
+    title: <br>* Serving BC Wide For Commercial Painting *<br><br>* Residential
+      Painting & Windows Cleaning Available for Ucluelet & Tofino Residents *
     title_size: small
     desc: "#"
   - type: divider
@@ -44,9 +45,9 @@ components:
     bg_color: white
     cards:
       - title: Professional Service
-        description: s painting contractors, we pride ourselves in exceeding our clients
-          expectations and providing quality painting services from preparation
-          all the way through to the finishing touches.
+        description: As painting contractors, we pride ourselves in exceeding our
+          clients expectations and providing quality painting services from
+          preparation all the way through to the finishing touches.
         icon: "#paint-roller"
         aos_select: true
         aos: fade-up
@@ -81,10 +82,10 @@ components:
     desc: We are passionate business owners who love to transform people's homes and
       businesses by making giving them a fresh look . Brightest Days painting
       services has been growing by leaps and bounds and now is serving Ucluelet,
-      Tofino and Port Alberni for residential and we also travel BC wide for
-      large commercial projects. At our core we’ve grown along side our
-      customers, responding to their needs and requirements. We go out of our
-      way to help you get the results you want.
+      Tofino for residential and we also travel BC wide for large commercial
+      projects. At our core we’ve grown along side our customers, responding to
+      their needs and requirements. We go out of our way to help you get the
+      results you want.
     aos_select: true
     title: We Founded Brightest Days To Increase People's Quality Of Life
     type: img_half_right
@@ -146,9 +147,8 @@ components:
     title: Get A Quote
     type: heading_full
     id: contact
-  - type: divider
+  - type: divider_half
     bg_color: white
-    id: "#"
   - type: form_center
     bg_color: white
     form_bg_color: gray-200

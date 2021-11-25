@@ -1,16 +1,12 @@
 ---
 title: Privacy Policy
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
-  aliquam nibh, quis tincidunt ante. Vivamus sit amet diam et velit aliquam
-  aliquam at ut neque.
-companyname: Supersonic Sites
-companyemail: hello@supersonicsites.com
+description: Privacy Policy
+companyname: Brightest Days
+companyemail: info@brightestdays.ca
 layout: privacy_policy
 ---
 
 # Privacy Policy
-
-Effective Date: May 5, 2021
 
 {{< param companyname >}} ("we", "us" or "our") operates the website (hereinafter referred to as the "service"). This page informs you of our policies regarding the collection, use and disclosure of personal data when you use our service and the choices you have associated with this data. We use your data to provide and improve the service. By using our services, you agree to the collection and use of information in accordance with this policy.
 

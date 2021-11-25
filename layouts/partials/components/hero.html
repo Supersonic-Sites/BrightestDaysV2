@@ -3,7 +3,7 @@
 
   <div class="container max-w-7xl mx-auto flex flex-col justify-center items-center">
   
-    <div class="max-w-6xl flex flex-col items-center justify-center">
+    <div class="max-w-6xl flex flex-col ">
       <p class="capitalize text-3xl hidden text-center md:text-left mb-2">
         {{ .pre_title }}
       </p>
@@ -21,15 +21,15 @@
       data-src="{{ .img }}"
        />
       </div>
-      <h1 class="font-bold uppercase text-5xl md:text-8xl text-center font-sans text-black">
+      <h1 class="font-bold uppercase text-5xl md:text-8xl text-left font-sans text-black">
         {{ .title }}
       </h1>
   
-      <h2 class=" text-xl md:text-3xl max-w-3xl text-center mt-4 mb-6 font-bold text-black">
+      <h2 class="text-xl max-w-3xl text-left mt-4 mb-6 font-bold text-black">
         {{ .desc | safeHTML }}
       </h2>
   
-      <div class="flex flex-col items-center md:flex-row">
+      <div class="flex flex-col items-start md:flex-row">
         <a href="{{ .cta_link }}" class="transition duration-500 text-center w-full text-base md:text-xl md:w-auto mb-2 md:mb-0 md:mr-2 btn_primary ">
           {{ .cta }}
         </a>

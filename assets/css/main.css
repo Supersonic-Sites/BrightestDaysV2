@@ -10,11 +10,11 @@ html {
 
 @media only screen and (max-width: 768px) {
   .herobg {
-    background-image: url('https://imagedelivery.net/55TzV2Sm0ZC5Gj13gsciyw/6ed626ff-e388-44ed-e4c6-ae1421a5aa00/MobileBackground');
+    background-image: url('https://imagedelivery.net/55TzV2Sm0ZC5Gj13gsciyw/99b6f3be-15be-4a08-fa4c-4d799e547900/MobileBackground');
   }
 }
 .herobg {
-  background-image: linear-gradient(180deg, rgb(238,241,234,0.1) 0%, rgba(238,241,234,0.5) 100%), url('https://imagedelivery.net/55TzV2Sm0ZC5Gj13gsciyw/6ed626ff-e388-44ed-e4c6-ae1421a5aa00/FullBackgroundDesktop');
+  background-image: linear-gradient(180deg, rgb(238,241,234,0.1) 0%, rgba(238,241,234,0.5) 100%), url('https://imagedelivery.net/55TzV2Sm0ZC5Gj13gsciyw/99b6f3be-15be-4a08-fa4c-4d799e547900/FullBackgroundDesktop');
   background-position: top right;
 }
 .bg-navbar {
