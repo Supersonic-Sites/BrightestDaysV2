@@ -18,16 +18,17 @@
     {{ $options := dict "inlineImports" true }}
     {{ $styles := resources.Get "css/main.css"  }}
     {{ $styles = $styles | resources.PostCSS }}
+    {{ $styles = $styles | minify | fingerprint }}
     {{ if  hugo.IsProduction  }}
-      {{ $styles = $styles | minify | fingerprint }}
+      <span></span>
       {{ else }}
       <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
     {{ end }}
-    
-    <link href="{{ $styles.RelPermalink }}" rel="stylesheet" integrity="{{ $styles.Data.Integrity }}" />
+    <link rel="preload" href="{{ $styles.RelPermalink }}" as="style" integrity="{{ $styles.Data.Integrity }}" />
     
     {{- partial "gtm-head" . }}
   </head>
+
 <body>
     {{- partial "nav" . }}
     {{ block "main" . }}{{ end }}
