@@ -73,7 +73,7 @@ components:
         aos: fade-up
   - type: divider_half
     bg_color: white
-  - img: https://imagedelivery.net/55TzV2Sm0ZC5Gj13gsciyw/61213627-a759-46f6-1ee9-5dc8b7c6c600/SquareDesktop
+  - img: https://imagedelivery.net/55TzV2Sm0ZC5Gj13gsciyw/905b928f-6b40-44b5-8fdb-1473557ad800/SquareDesktop
     aos: fade-up
     cta_link: contact/
     bg_color: white
